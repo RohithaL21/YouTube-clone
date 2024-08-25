@@ -1,0 +1,77 @@
+body {
+  font-family: "Roboto", "Arial", sans-serif;
+  padding-right: 20px;
+  padding-left: 240px;
+  background-color: #0f0f0f;
+}
+
+main {
+  padding-top: 70px;
+}
+
+.video {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 8px 40px 8px;
+}
+
+.video-thumbnail {
+  border-radius: 10px;
+}
+
+.video-thumbnail:hover {
+  cursor: pointer;
+  border-radius: 0;
+}
+
+.video-discription {
+  display: flex;
+  flex-direction: row;
+  width: 336px;
+}
+
+.video-discription:hover {
+  cursor: pointer;
+}
+
+.video-title {
+  color: #f1f1f1;
+  width: 100%;
+  margin: 12px 0 4px 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.video-title:hover {
+  cursor: pointer;
+}
+
+.channel-profile-picture {
+  margin: 12px 12px 0 0;
+  border-radius: 50%;
+  height: 36px;
+  width: 36px;
+}
+
+.channel-name {
+  color: #aaa;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.channel-name:hover {
+  color: white;
+}
+
+.video-views-time {
+  color: #aaa;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}

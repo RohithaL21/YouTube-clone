@@ -1,0 +1,79 @@
+.side-bar {
+  padding: 12px;
+  color: white;
+  background-color: #0f0f0f;
+  top: 55px;
+  left: 0;
+  bottom: 0;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+
+  width: 220px;
+  font-family: "Roboto", "Arial", sans-serif;
+  overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0f0f0f;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 0 12px 0 12px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.item:hover {
+  background-color: #333;
+  cursor: pointer;
+}
+
+.icons {
+  height: 24px;
+  width: 24px;
+  margin-right: 25px;
+}
+
+.item-container {
+  border-top: 1px solid white;
+  margin-top: 12px;
+  padding: 12px 0 12px 0;
+}
+
+.title-text {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 6px 12px 4px 12px;
+  align-items: center;
+}
+
+.subscription-icons {
+  height: 24px;
+  width: 24px;
+  border-radius: 50px;
+  margin-right: 25px;
+}
+
+.icon-text {
+  font-size: 14px;
+}
+
+.footer {
+  border-top: 1px solid white;
+  margin-top: 12px;
+  padding-top: 12px;
+  font-size: 14px;
+}

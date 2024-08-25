@@ -1,0 +1,149 @@
+.header-section {
+  left: 0;
+  top: 0;
+  right: 0;
+  width: 100%;
+  position: fixed;
+  padding: 0 16px 0 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #0f0f0f;
+}
+
+.left-section,
+.middle-section,
+.right-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/* left-section */
+
+.hamburger-menu {
+  padding: 8px;
+  height: 24px;
+  width: 24px;
+  border-radius: 50px;
+}
+
+.youtube-logo {
+  height: 20px;
+  width: 90px;
+  padding: 18px 14px 18px 16px;
+}
+
+#youtubeLogo,
+#hamburgerMenu {
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+}
+
+.hamburger-menu:hover {
+  background-color: #303030;
+}
+
+/* middle-section */
+
+.search-button {
+  width: 64px;
+  background-color: #ffffff14;
+  height: 42px;
+  border: 1px solid #303030;
+  border-radius: 0 40px 40px 0;
+  cursor: pointer;
+}
+
+.search-section {
+  display: flex;
+  align-items: center;
+}
+
+.voice-button {
+  margin-left: 20px;
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+  background-color: #ffffff14;
+  border: 1px solid #303030;
+  cursor: pointer;
+}
+
+.voice-button:hover {
+  background-color: #303030;
+}
+
+#searchBar {
+  width: 536px;
+  height: 40px;
+  background-color: #0f0f0f;
+  color: white;
+  border: 1px solid #303030;
+  border-radius: 40px 0 0 40px;
+  padding: 0 4px 0 16px;
+}
+
+#searchIcon,
+#voiceIcon {
+  height: 20px;
+}
+
+/* right-section */
+
+.right-section {
+  height: 40px;
+  width: 156px;
+}
+
+.create-icon {
+  height: 24px;
+  width: 24px;
+  padding: 8px;
+  border-radius: 50px;
+}
+
+.notification-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  height: 24px;
+  width: 24px;
+  border-radius: 50px;
+}
+
+.account-picture {
+  display: flex;
+  justify-content: center;
+  height: 32px;
+  width: 48px;
+  margin-left: 5px;
+  padding: 1px 6px 1px 6px;
+}
+
+.create-icon:hover,
+.notification-icon:hover {
+  background-color: #303030;
+}
+
+#createIcon {
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+}
+
+#notification {
+  height: 24px;
+  width: 24px;
+  cursor: pointer;
+}
+
+#accountPicture {
+  height: 32px;
+  width: 32px;
+  cursor: pointer;
+  border-radius: 50px;
+}

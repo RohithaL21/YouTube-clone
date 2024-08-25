@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>YouTube.com Clone</title>
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="stylesheet" href="./styles/side-bar.css" />
+  </head>
+  <body>
+    <!-- ========== Header Section ========== -->
+    <header class="header-section">
+      <!-- ========== Left Section ========== -->
+      <div class="left-section">
+        <div class="hamburger-menu">
+          <img
+            src="./icons/hamburgerMenu.svg"
+            alt="hambuger"
+            id="hamburgerMenu"
+          />
+        </div>
+        <div class="youtube-logo">
+          <img
+            src="./icons/yt_logo_rgb_dark.png"
+            alt="youtube logo"
+            id="youtubeLogo"
+          />
+        </div>
+      </div>
+
+      <!-- ========== Middle Section ========== -->
+      <div class="middle-section">
+        <div class="search-section">
+          <input type="text" placeholder="Search" id="searchBar" />
+          <button class="search-button">
+            <img
+              src="./icons/searchIcon.svg"
+              alt="searchIcon"
+              id="searchIcon"
+            />
+          </button>
+        </div>
+        <button class="voice-button">
+          <img src="./icons/microphone.png" alt="mic" id="voiceIcon" />
+        </button>
+      </div>
+
+      <!-- ========== Right Section ========== -->
+      <div class="right-section">
+        <div class="create-icon">
+          <img src="./icons/createIcon.png" alt="create" id="createIcon" />
+        </div>
+        <div class="notification-icon">
+          <img
+            src="./icons/notificationIcon.png"
+            alt="notification"
+            id="notification"
+          />
+        </div>
+        <div class="account-picture">
+          <img src="./profile-picture/Spark.png" alt="" id="accountPicture" />
+        </div>
+      </div>
+    </header>
+
+    <!-- ========== Side Bar ========== -->
+    <div class="side-bar">
+      <div class="container">
+        <div class="item">
+          <img class="icons" src="./icons/youtubeHome.png" alt="youtubeHome" />
+          <div class="icon-text">Home</div>
+        </div>
+        <div class="item">
+          <img
+            class="icons"
+            src="./icons/youtubeShorts.png"
+            alt="youtubeShorts"
+          />
+          <div class="icon-text">Shorts</div>
+        </div>
+        <div class="item">
+          <img
+            class="icons"
+            src="./icons/youtubeSubscriptions.png"
+            alt="youtubesubcription"
+          />
+          <div class="icon-text">Subscriptions</div>
+        </div>
+      </div>
+
+      <div class="item-container">
+        <div class="item">
+          You
+          <img
+            style="width: 12px; margin-left: 10px"
+            src="./icons/rightarrow.png"
+            alt="rightarrow"
+          />
+        </div>
+        <div class="item">
+          <img
+            class="icons"
+            src="./icons/youtubeYourChannel.png"
+            alt="youtubeYourChannel"
+          />
+          <div class="icon-text">Your channel</div>
+        </div>
+        <div class="item">
+          <img
+            class="icons"
+            src="./icons/youtubeHistory.png"
+            alt="youtubeHistory"
+          />
+          <div class="icon-text">History</div>
+        </div>
+        <div class="item">
+          <img
+            class="icons"
+            src="./icons/youtubePlaylist.png"
+            alt="youtubePlaylist"
+          />
+          <div class="icon-text">Subscriptions</div>
+        </div>
+        <div class="item">
+          <img
+            class="icons"
+            src="./icons/youtubeYourVideos.png"
+            alt="youtubeYourVideos"
+          />
+          <div class="icon-text">Your videos</div>
+        </div>
+        <div class="item">
+          <img
+            class="icons"
+            src="./icons/youtubeWatchLater.png"
+            alt="youtubeWatchLater"
+          />
+          <div class="icon-text">Watch Later</div>
+        </div>
+        <div class="item">
+          <img
+            class="icons"
+            src="./icons/youtubeLikedVideos.png"
+            alt="youtubeLikedVideos"
+          />
+          <div class="icon-text">Liked videos</div>
+        </div>
+      </div>
+
+      <div class="item-container">
+        <div class="title-text">Subscriptions</div>
+        <div class="item">
+          <img
+            class="subscription-icons"
+            src="./channel-picture/channels4_profile.jpg"
+            alt="andrewHuberman"
+          />
+          <div class="icon-text">Andrew Huberman</div>
+        </div>
+        <div class="item">
+          <img
+            class="subscription-icons"
+            src="./channel-picture/diaryOfACeo.jpg"
+            alt="theDiaryOfACeo"
+          />
+          <div class="icon-text">The Diary Of a CEO</div>
+        </div>
+        <div class="item">
+          <img
+            class="subscription-icons"
+            src="./channel-picture/raminduRandeni.jpg"
+            alt="raminduRandeni"
+          />
+          <div class="icon-text">Ramindu Randeni (...</div>
+        </div>
+        <div class="item">
+          <img
+            class="subscription-icons"
+            src="./channel-picture/jordanBPeterson.jpg"
+            alt="jordanBPeterson"
+          />
+          <div class="icon-text">Jordan B Peterson</div>
+        </div>
+        <div class="item">
+          <img
+            class="subscription-icons"
+            src="./channel-picture/simpleBook.jpg"
+            alt="simpleBooks"
+          />
+          <div class="icon-text">SimpleBooks</div>
+        </div>
+        <div class="item">
+          <img
+            class="subscription-icons"
+            src="./channel-picture/drK.jpg"
+            alt="drK"
+          />
+          <div class="icon-text">HealthyGamerGG</div>
+        </div>
+        <div class="item">
+          <img
+            class="subscription-icons"
+            src="./channel-picture/freeCodeCamp.jpg"
+            alt="freeCodeCamp"
+          />
+          <div class="icon-text">freeCodeCamp.o...</div>
+        </div>
+        <div class="item">
+          <img
+            class="icons"
+            style="width: 12px; height: 12px"
+            src="./icons/downarrow.png"
+            alt="downarrow"
+          />
+          <div class="icon-text">Show more</div>
+        </div>
+      </div>
+
+      <div class="item-container">
+        <div class="title-text">Explore</div>
+        <div class="item">
+          <img
+            class="icons"
+            src="./icons/youtubeTrending.png"
+            alt="youtubeTrending"
+          />
+          <div class="icon-text">Trending</div>
+        </div>
+        <div class="item">
+          <img
+            class="icons"
+            src="./icons/youtubeMusic.png"
+            alt="youtubeMusic"
+          />
+          <div class="icon-text">Trending</div>
+        </div>
+        <div class="item">
+          <img
+            class="icons"
+            src="./icons/youtubeGaming.png"
+            alt="youtubeGaming"
+          />
+          <div class="icon-text">Gaming</div>
+        </div>
+        <div class="item">
+          <img
+            class="icons"
+            src="./icons/youtubeSport.png"
+            alt="youtubeSport"
+          />
+          <div class="icon-text">Sport</div>
+        </div>
+      </div>
+
+      <div class="item-container">
+        <div class="title-text">More from YouTube</div>
+        <div class="item">
+          <img
+            class="icons"
+            src="./icons/youtubePremium.png"
+            alt="youtubePremium"
+          />
+          <div class="icon-text">YouTube Premium</div>
+        </div>
+        <div class="item">
+          <img
+            class="icons"
+            src="./icons/youtubeStudio.png"
+            alt="youtubeStudio"
+          />
+          <div class="icon-text">Youtube Studio</div>
+        </div>
+        <div class="item">
+          <img
+            class="icons"
+            src="./icons/youtubeMusic2.png"
+            alt="youtubeMusicApp"
+          />
+          <div class="icon-text">YouTube Music</div>
+        </div>
+        <div class="item">
+          <img class="icons" src="./icons/youtubeKids.png" alt="youtubekids" />
+          <div class="icon-text">YouTube Kids</div>
+        </div>
+      </div>
+
+      <div class="item-container">
+        <div class="item">
+          <img
+            class="icons"
+            src="./icons/youtubeSettings.png"
+            alt="youtubeSetting"
+          />
+          <div class="icon-text">Settings</div>
+        </div>
+        <div class="item">
+          <img
+            class="icons"
+            src="./icons/youtubeReport.png"
+            alt="youtubeReport"
+          />
+          <div class="icon-text">Report history</div>
+        </div>
+        <div class="item">
+          <img class="icons" src="./icons/youtubeHelp.png" alt="youtubeHelp" />
+          <div class="icon-text">Help</div>
+        </div>
+        <div class="item">
+          <img
+            class="icons"
+            src="./icons/youtubeFeedback.png"
+            alt="youtubeFeedback"
+          />
+          <div class="icon-text">Send feedback</div>
+        </div>
+      </div>
+
+      <div class="footer">
+        <p>
+          About Press Copyright <br />
+          Contact us Creator Advertise Developers
+        </p>
+
+        <p>Terms Privacy Policy & Safety How YouTube works Test new features</p>
+
+        <p style="color: #606060">&copy; 2024 Google LLC</p>
+      </div>
+    </div>
+
+    <main>
+      <div class="video-grid">
+        <!-- ========== video 01 ========== -->
+        <div class="video">
+          <div class="thumbnail">
+            <img
+              class="video-thumbnail"
+              src="./thumbnails/video01.webp"
+              alt="video"
+            />
+          </div>
+          <div class="video-discription">
+            <div class="channel-picture">
+              <img
+                class="channel-profile-picture"
+                src="./channel-picture/channels4_profile.jpg"
+                alt="channel-profile"
+              />
+            </div>
+            <div class="video-information">
+              <div class="video-title">
+                David Goggins: How to Build Immense Inner Strenth
+              </div>
+              <div class="channel-name">Andrew Huberman &#10003;</div>
+              <div class="video-views-time">2M views &#x2022; 4 months ago</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ========== video 02 ========== -->
+        <div class="video">
+          <div class="thumbnail">
+            <img
+              class="video-thumbnail"
+              src="./thumbnails/video02.webp"
+              alt="video"
+            />
+          </div>
+          <div class="video-discription">
+            <div class="channel-picture">
+              <img
+                class="channel-profile-picture"
+                src="./channel-picture/diaryOfACeo.jpg"
+                alt="channel-profile"
+              />
+            </div>
+            <div class="video-information">
+              <div class="video-title">
+                Special Forses Commander: The Weird Trick For Overcoming
+                Anxiety...
+              </div>
+              <div class="channel-name">The Diary Of A CEO &#10003;</div>
+              <div class="video-views-time">
+                573K views &#x2022; 1 month ago
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ========== video 03 ========== -->
+        <div class="video">
+          <div class="thumbnail">
+            <img
+              class="video-thumbnail"
+              src="./thumbnails/video03.webp"
+              alt="video"
+            />
+          </div>
+          <div class="video-discription">
+            <div class="channel-picture">
+              <img
+                class="channel-profile-picture"
+                src="./channel-picture/raminduRandeni.jpg"
+                alt="channel-profile"
+              />
+            </div>
+            <div class="video-information">
+              <div class="video-title">
+                ඉලක්කයක් සපුරා ගැනීම සඳහා ඔබේ මොළය පුහුණු කරන්න - Train your
+                brain to...
+              </div>
+              <div class="channel-name">Ramindu Randeni (සිංහල)</div>
+              <div class="video-views-time">
+                165K views &#x2022; 3 months ago
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ========== video 04 ========== -->
+        <div class="video">
+          <div class="thumbnail">
+            <img
+              class="video-thumbnail"
+              src="./thumbnails/video04.webp"
+              alt="video"
+            />
+          </div>
+          <div class="video-discription">
+            <div class="channel-picture">
+              <img
+                class="channel-profile-picture"
+                src="./channel-picture/jordanBPeterson.jpg"
+                alt="channel-profile"
+              />
+            </div>
+            <div class="video-information">
+              <div class="video-title">
+                Trauma and the Demolition of Faith | Ronnie Janoff-Bulman | EP
+                449
+              </div>
+              <div class="channel-name">Jordan B Peterson &#10003;</div>
+              <div class="video-views-time">102K views &#x2022; 4 days ago</div>
+            </div>
+          </div>
+        </div>
+        <!-- ========== video 05 ========== -->
+        <div class="video">
+          <div class="thumbnail">
+            <img
+              class="video-thumbnail"
+              src="./thumbnails/video05.webp"
+              alt="video"
+            />
+          </div>
+          <div class="video-discription">
+            <div class="channel-picture">
+              <img
+                class="channel-profile-picture"
+                src="./channel-picture/simpleBook.jpg"
+                alt="channel-profile"
+              />
+            </div>
+            <div class="video-information">
+              <div class="video-title">
+                How To Find Your Passion In Sinhala | Fahad Farook | Simplebooks
+              </div>
+              <div class="channel-name">Simplebooks &#10003;</div>
+              <div class="video-views-time">25K views &#x2022; 3 days ago</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ========== video 06 ========== -->
+        <div class="video">
+          <div class="thumbnail">
+            <img
+              class="video-thumbnail"
+              src="./thumbnails/video06.webp"
+              alt="video"
+            />
+          </div>
+          <div class="video-discription">
+            <div class="channel-picture">
+              <img
+                class="channel-profile-picture"
+                src="./channel-picture/drK.jpg"
+                alt="channel-profile"
+              />
+            </div>
+            <div class="video-information">
+              <div class="video-title">Dr. K Exploers Sh*t Life Syndrome</div>
+              <div class="channel-name">HealthyGamerGG &#10003;</div>
+              <div class="video-views-time">
+                89K views &#x2022; Streamed 11 hours ago
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ========== video 07 ========== -->
+        <div class="video">
+          <div class="thumbnail">
+            <img
+              class="video-thumbnail"
+              src="./thumbnails/video07.webp"
+              alt="video"
+            />
+          </div>
+          <div class="video-discription">
+            <div class="channel-picture">
+              <img
+                class="channel-profile-picture"
+                src="./channel-picture/freeCodeCamp.jpg"
+                alt="channel-profile"
+              />
+            </div>
+            <div class="video-information">
+              <div class="video-title">
+                Angular and Supabase Course - Build a Realtime Chat Application
+              </div>
+              <div class="channel-name">freeCodeCamp.org &#10003;</div>
+              <div class="video-views-time">
+                12K views &#x2022; 14 hours ago
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ========== video 08 ========== -->
+        <div class="video">
+          <div class="thumbnail">
+            <img
+              class="video-thumbnail"
+              src="./thumbnails/video08.webp"
+              alt="video"
+            />
+          </div>
+          <div class="video-discription">
+            <div class="channel-picture">
+              <img
+                class="channel-profile-picture"
+                src="./channel-picture/melRobbins.jpg"
+                alt="channel-profile"
+              />
+            </div>
+            <div class="video-information">
+              <div class="video-title">
+                Live a Healthier, Happier, and Longer life: The Secrets to
+                Feeling...
+              </div>
+              <div class="channel-name">Mel Robbins &#10003;</div>
+              <div class="video-views-time">
+                53K views &#x2022; 22 hours ago
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ========== video 09 ========== -->
+        <div class="video">
+          <div class="thumbnail">
+            <img
+              class="video-thumbnail"
+              src="./thumbnails/video09.webp"
+              alt="video"
+            />
+          </div>
+          <div class="video-discription">
+            <div class="channel-picture">
+              <img
+                class="channel-profile-picture"
+                src="./channel-picture/hexcoder.jpg"
+                alt="channel-profile"
+              />
+            </div>
+            <div class="video-information">
+              <div class="video-title">
+                Ultahost - ලාබම web hosting service එක - is Ultahost the
+                cheapest hosting service...
+              </div>
+              <div class="channel-name">HexCoder &#10003;</div>
+              <div class="video-views-time">
+                1.2K views &#x2022; 23 hours ago
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ========== video 10 ========== -->
+        <div class="video">
+          <div class="thumbnail">
+            <img
+              class="video-thumbnail"
+              src="./thumbnails/video10.webp"
+              alt="video"
+            />
+          </div>
+          <div class="video-discription">
+            <div class="channel-picture">
+              <img
+                class="channel-profile-picture"
+                src="./channel-picture/netNinja.jpg"
+                alt="channel-profile"
+              />
+            </div>
+            <div class="video-information">
+              <div class="video-title">
+                New Pro Course - Flutter with Firebase Auth
+              </div>
+              <div class="channel-name">Net Ninja &#10003;</div>
+              <div class="video-views-time">1.7K views &#x2022; 1 day ago</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ========== video 11 ========== -->
+        <div class="video">
+          <div class="thumbnail">
+            <img
+              class="video-thumbnail"
+              src="./thumbnails/video11.webp"
+              alt="video"
+            />
+          </div>
+          <div class="video-discription">
+            <div class="channel-picture">
+              <img
+                class="channel-profile-picture"
+                src="./channel-picture/Akedits.jpg"
+                alt="channel-profile"
+              />
+            </div>
+            <div class="video-information">
+              <div class="video-title">X-Men'97 || Warriours</div>
+              <div class="channel-name">Ak Editx &#10003;</div>
+              <div class="video-views-time">9.5K views &#x2022; 1 day ago</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ========== video 12 ========== -->
+        <div class="video">
+          <div class="thumbnail">
+            <img
+              class="video-thumbnail"
+              src="./thumbnails/video12.webp"
+              alt="video"
+            />
+          </div>
+          <div class="video-discription">
+            <div class="channel-picture">
+              <img
+                class="channel-profile-picture"
+                src="./channel-picture/channel12.jpg"
+                alt="channel-profile"
+              />
+            </div>
+            <div class="video-information">
+              <div class="video-title">
+                3 Life-Changing Ways to Gain More SUCCESS
+              </div>
+              <div class="channel-name">Bedros Keuilian &#10003;</div>
+              <div class="video-views-time">10K views &#x2022; 1 day ago</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
